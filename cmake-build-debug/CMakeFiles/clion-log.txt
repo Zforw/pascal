@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/zforw/ClionProjects/untitled_pascal
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/zforw/CLionProjects/untitled_pascal
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug
+-- Build files have been written to: /Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug

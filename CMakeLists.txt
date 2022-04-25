@@ -3,4 +3,4 @@ project(untitled_pascal)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled_pascal main.cpp nfa_dfa.h simDFA.h minDFA.h)
+add_executable(untitled_pascal main.cpp nfa_dfa.h simDFA.h minDFA.h nfa.h)

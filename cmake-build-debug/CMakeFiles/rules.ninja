@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__untitled_pascal_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zforw/ClionProjects/untitled_pascal -B/Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zforw/CLionProjects/untitled_pascal -B/Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

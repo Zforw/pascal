@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug/
+cmake_ninja_workdir = /Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zforw/ClionProjects/untitled_pascal -B/Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug
+  COMMAND = cd /Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zforw/CLionProjects/untitled_pascal -B/Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_untitled_pascal: phony || CMakeFiles/untitled_pascal.dir
 
-build CMakeFiles/untitled_pascal.dir/main.cpp.o: CXX_COMPILER__untitled_pascal_Debug /Users/zforw/ClionProjects/untitled_pascal/main.cpp || cmake_object_order_depends_target_untitled_pascal
+build CMakeFiles/untitled_pascal.dir/main.cpp.o: CXX_COMPILER__untitled_pascal_Debug /Users/zforw/CLionProjects/untitled_pascal/main.cpp || cmake_object_order_depends_target_untitled_pascal
   DEP_FILE = CMakeFiles/untitled_pascal.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/untitled_pascal.dir
@@ -103,7 +103,7 @@ build untitled_pascal: CXX_EXECUTABLE_LINKER__untitled_pascal_Debug CMakeFiles/u
 # =============================================================================
 
 #############################################
-# Folder: /Users/zforw/ClionProjects/untitled_pascal/cmake-build-debug
+# Folder: /Users/zforw/CLionProjects/untitled_pascal/cmake-build-debug
 
 build all: phony untitled_pascal
 
